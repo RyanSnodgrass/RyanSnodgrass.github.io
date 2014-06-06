@@ -9,9 +9,10 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title>Ryan Snodgrass</title>
     
-    <%= stylesheet_link_tag "normalize", "bootstrap", 
-    "font-awesome", "main" %>
-    <%= javascript_include_tag  "bootstrap", "Chart" %>
+     <%= stylesheet_link_tag "normalize", "bootstrap", "font-awesome.min", "main" %>
+     <%= javascript_include_tag "Chart" %>
+     <script src="/javascripts/jquery.js" type="text/javascript"></script>
+     <script src="/javascripts/bootstrap.min.js" type="text/javascript"></script>
   </head>
   
   <body class="<%= page_classes %>">
