@@ -1,4 +1,4 @@
-/*
+/*/*
  * Author: Carlos Alvarez
  * URL: http://alvarez.is
  *
@@ -6,7 +6,13 @@
  * Version: 1.0
  * URL: http://blacktie.co
  */
- 
+/*ff7878 red */
+/*1abc9c green*/
+/*16a085 other green*/
+
+/*#2f2f2f black call to action and navbar spot*/
+/*#2f2f2f black call to action LINK*/
+
 /* FONTS */
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700,900);
@@ -90,12 +96,12 @@ a:after {
 }
 
 .navbar-inverse {
-	background: #2d2d2d;
-	border-color: #2d2d2d;
+	background: #2f2f2f;
+	border-color: #2f2f2f;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background: #ff7878
+	background: #1abc9c
 }
 
 .navbar-inverse .navbar-brand {
@@ -106,7 +112,7 @@ a:after {
 }
 
 .navbar-inverse .navbar-brand i {
-	color: #ff7878;
+	color: #1abc9c;
 	font-size: 22px;
 	letter-spacing: 1px;
 }
@@ -196,7 +202,7 @@ a:after {
 
 /* Red Wrap */
 #r {
-	background: #ff7878;
+	background: #1abc9c;
 	padding-top: 35px;
 	padding-bottom: 35px;
 }
@@ -231,7 +237,7 @@ a:after {
 
 /* Footer Wrap */
 #f {
-	background: #2d2d2d;
+	background: #2f2f2f;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -243,7 +249,7 @@ a:after {
 }
 
 #f i:hover {
-	color: #ff7878;
+	color: #1abc9c;
 }
 
 /****** SECTIONS *****/
@@ -257,7 +263,7 @@ a:after {
 }
 
 .w i {
-	color: #ff7878;
+	color: #1abc9c;
 	font-size: 30px;
 }
 
@@ -280,7 +286,7 @@ a:after {
 }
 
 .desc i {
-	color: #ff7878;
+	color: #1abc9c;
 	font-size: 12px;
 	padding: 5px;
 }
@@ -406,7 +412,8 @@ a:after {
 }
 
 .pricing-option .pricing-signup:hover {
-    background: #ff7878;
+    background: #1abc9c;
 }
 
 
+*/

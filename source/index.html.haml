@@ -40,18 +40,18 @@
     %br/
     %br/
     .col-lg-4
-      %i.fa.fa-heart
-      %h4 DESIGN
+      %i.fa.fa-database
+      %h4 RUBY ON RAILS
       %p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.
     / col-lg-4
     .col-lg-4
-      %i.fa.fa-laptop
-      %h4 BOOTSTRAP
+      %i.fa.fa-microphone
+      %h4 SINATRA
       %p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.
     / col-lg-4
     .col-lg-4
-      %i.fa.fa-trophy
-      %h4 SUPPORT
+      %i.fa.fa-html5
+      %h4 HTML CSS JAVASCRIPT
       %p There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even believable.
     / col-lg-4
   / row
@@ -59,27 +59,59 @@
   %br/
 / container
 / PORTFOLIO SECTION
-#dg
+#portfolio
   .container
-    .row.centered
-      %h4 LATEST WORKS
-      %br/
-      .col-lg-4
-        .tilt
-          %a{href: "#"}
-            %img{alt: "", src: "assets/img/p01.png"}/
-      .col-lg-4
-        .tilt
-          %a{href: "#"}
-            %img{alt: "", src: "assets/img/p03.png"}/
-      .col-lg-4
-        .tilt
-          %a{href: "#"}
-            %img{alt: "", src: "assets/img/p02.png"}/
-    / row
-  / container
-/ DG
-/ FEATURE SECTION
+  .row.mt
+    %ul#grid.grid.effect-2
+      %li
+        %a{href: "singleproject.html"}
+          %img{src: "images/1.jpg"}/
+          %p.box Testing
+        %li
+          %a{href: "singleproject.html"}
+            %img{src: "images/3.jpg"}/
+          %li
+            %a{href: "singleproject.html"}
+              %img{src: "images/4.jpg"}/
+            %li
+              %a{href: "singleproject.html"}
+                %img{src: "images/12.png"}/
+              %li
+                %a{href: "singleproject.html"}
+                  %img{src: "images/13.png"}/
+                %li
+                  %a{href: "singleproject.html"}
+                    %img{src: "images/10.png"}/
+                  %li
+                    %a{href: "singleproject.html"}
+                      %img{src: "images/9.jpg"}/
+                    %li
+                      %a{href: "singleproject.html"}
+                        %img{src: "images/2.jpg"}/
+                      %li
+                        %a{href: "singleproject.html"}
+                          %img{src: "images/14.png"}/
+                        %li
+                          %a{href: "singleproject.html"}
+                            %img{src: "images/5.jpg"}/
+                          %li
+                            %a{href: "singleproject.html"}
+                              %img{src: "images/6.jpg"}/
+                            %li
+                              %a{href: "singleproject.html"}
+                                %img{src: "images/7.jpg"}/
+                              %li
+                                %a{href: "singleproject.html"}
+                                  %img{src: "images/6.jpg"}/
+                                %li
+                                  %a{href: "singleproject.html"}
+                                    %img{src: "images/9.jpg"}/
+                                  %li
+                                    %a{href: "singleproject.html"}
+                                      %img{src: "images/11.png"}/
+                                / row
+                              / container
+                            / portfolio
 .container.wb
   .row.centered
     %br/
@@ -92,7 +124,7 @@
         %br/
     .col-lg-2
     .col-lg-10.col-lg-offset-1
-      %img.img-responsive{alt: "", src: "assets/img/munter.png"}/
+      %img.img-responsive{alt: "", src: "images/munter.png"}/
   / row
 / container
 #lg
@@ -100,15 +132,15 @@
     .row.centered
       %h4 OUR AWESOME CLIENTS
       .col-lg-2.col-lg-offset-1
-        %img{alt: "", src: "assets/img/c01.gif"}/
+        %img{alt: "", src: "images/c01.gif"}/
       .col-lg-2
-        %img{alt: "", src: "assets/img/c02.gif"}/
+        %img{alt: "", src: "images/c02.gif"}/
       .col-lg-2
-        %img{alt: "", src: "assets/img/c03.gif"}/
+        %img{alt: "", src: "images/c03.gif"}/
       .col-lg-2
-        %img{alt: "", src: "assets/img/c04.gif"}/
+        %img{alt: "", src: "images/c04.gif"}/
       .col-lg-2
-        %img{alt: "", src: "assets/img/c05.gif"}/
+        %img{alt: "", src: "images/c05.gif"}/
     / row
   / container
 / dg
@@ -159,8 +191,13 @@
     / /.modal-content
   / /.modal-dialog
 / /.modal
-/
-  Bootstrap core JavaScript
-  \==================================================
+:javascript
+  new AnimOnScroll( document.getElementById( 'grid' ), {
+    minDuration : 0.4,
+    maxDuration : 0.7,
+    viewportFactor : 0.2
+  } );
+//Bootstrap core JavaScript
+//\==================================================
 / Placed at the end of the document so the pages load faster
-%script{src: "https://code.jquery.com/jquery-1.10.2.min.js"}
+/ %script{src: "https://code.jquery.com/jquery-1.10.2.min.js"}
