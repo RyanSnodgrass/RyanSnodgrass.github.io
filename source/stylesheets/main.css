@@ -60,8 +60,8 @@ hr {
 }
 .btn-green {
     color: #fff;
-    background-color: #1abc9c;
-    border-color: #1abc9c;
+    background-color: #1ABCB8;
+    border-color: #1ABCB8;
     font-weight: 300;
 }
 .btn-green:hover, .btn-green:focus, .btn-green:active, .btn-green.active, .open .dropdown-toggle.btn-green {
@@ -104,7 +104,7 @@ hr {
     margin-top: 20px;
 }
 .menu h1.logo a:hover {
-    color: #1abc9c;
+    color: #1ABCB8;
 }
 .menu img.logo {
     margin: 20px 0;
@@ -352,7 +352,7 @@ hr {
 #portfolio {
     width: 100%}
 #services {
-    background: #1abc9c;
+    background: #1ABCB8;
     margin-top: 25px;
     padding-top: 35px;
     padding-bottom: 35px;
@@ -399,7 +399,7 @@ hr {
     padding: 15px;
 }
 #sf .lg {
-    background-color: #1abc9c;
+    background-color: #1ABCB8;
 }
 #sf .dg {
     background-color: #16a085;
@@ -563,7 +563,7 @@ hr {
 }
 
 .w i {
-    color: #1abc9c;
+    color: #1ABCB8;
     font-size: 30px;
 }
 .navbar {
@@ -579,7 +579,7 @@ hr {
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-    background: #1abc9c
+    background: #1ABCB8
 }
 
 .navbar-inverse .navbar-brand {
@@ -590,7 +590,7 @@ hr {
 }
 
 .navbar-inverse .navbar-brand i {
-    color: #1abc9c;
+    color: #1ABCB8;
     font-size: 22px;
     letter-spacing: 1px;
 }
