@@ -25,15 +25,18 @@
 		%br
 		%br
 		.col-md-6.centered#liqo
-			%img.img-responsive{alt: "LiQo App", src: "images/portfolio/liqo.jpg"}
+			%img.works-img{alt: "LiQo App", src: "images/portfolio/liqo.jpg"}
 		.col-md-6
 			%h4 LiQo
 			%p With this app, users can select spirits and liqueurs they have in their IRL cabinet at home, and the app queries through a database and outputs recipes that match only the ingredients they already have.
 			
 			%p
+				/ %i.fa.fa-circle-o
+				/ Ruby on Rails
+				/ %br
 				%i.fa.fa-circle-o
 				%a{href: "http://liqo-final-project.herokuapp.com"} Live Website
-				%br/
+				%br
 				%i.fa.fa-git-square
 				%a{href: "https://github.com/RyanSnodgrass/liqo_final_project"}Github Repository
 				%br/
@@ -42,29 +45,22 @@
 	/ row
 	%br/
 	%br/
-	%hr/
+	%hr
 	%br/
 	%br/
-	.row
-		.col-lg-6.centered
-			%img{alt: "", src: "assets/img/p01.png"}/
-		/ col-lg-6
-		.col-lg-6
-			%h4 CLIENT NAME
-			%p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-			%p It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+	.row#fsm
+		.col-md-6.centered
+			%img.works-img{alt: "", src: "images/portfolio/FSM_app_resize.jpg"}/
+		.col-md-6
+			%h4 FSM Pastafarian Converter
+			%p Light hearted app running on Ruby on Rails that shows a list of famous religous figures that you "convert" to the Church of the Flying Spaghetti Monster as a "Pastafarian."
 			%p
 				%i.fa.fa-circle-o
-				Mobile Design
+				%a{href: "http://http://young-ocean-5340.herokuapp.com/"} Live Website
+				%br
+				%i.fa.fa-git-square
+				%a{href: "https://github.com/RyanSnodgrass/postgres_login_app"}Github Repository
 				%br/
-				%i.fa.fa-circle-o
-				Web Design
-				%br/
-				%i.fa.fa-circle-o
-				Development
-				%br/
-				%i.fa.fa-link
-				%a{href: "#"} BlackTie.co
 	/ row
 	%br/
 	%br/
@@ -73,29 +69,50 @@
 	%br/
 	.row
 		.col-md-6.centered
-			%img{alt: "", src: "assets/img/p02.png"}/
-		/ col-lg-6
+			%img.works-img{alt: "Course App", src: "images/portfolio/sinatra_four_hw_screenshot_resize.jpg"}
 		.col-md-6
-			%h4 CLIENT NAME
-			%p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-			%p It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+			%h4 Course Catalog
+			%p Full CRUD(Create Read Update Delete) running on a Sinatra backend.
 			%p
-				%i.fa.fa-circle-o
-				Mobile Design
+				/ %i.fa.fa-circle-o
+				/ %a{href: "http://http://young-ocean-5340.herokuapp.com/"} Live Website
+				/ %br
+				%i.fa.fa-git-square
+				%a{href: "https://github.com/RyanSnodgrass/sinatra_four_hw"}Github Repository
 				%br/
-				%i.fa.fa-circle-o
-				Web Design
+	%br
+	%br
+	%hr/
+	%br/
+	%br/
+	.row
+		.col-md-6.centered
+			%img.works-img{alt: "HorseRace Game", src: "images/portfolio/horserace.gif"}
+		.col-md-6
+			%h4 HorseRace Game
+			%p Super fun, super simple app running on pure ruby straight in the terminal. You name your horse, and then type commands to make your horse race across an ASCII generated track.
+			%p
+				/ %i.fa.fa-circle-o
+				/ %a{href: "http://http://young-ocean-5340.herokuapp.com/"} Live Website
+				/ %br
+				%i.fa.fa-git-square
+				%a{href: "https://gist.github.com/RyanSnodgrass/9958053"}Github Repository
 				%br/
-				%i.fa.fa-circle-o
-				Development
-				%br/
-				%i.fa.fa-link
-				%a{href: "#"} BlackTie.co
 	/ row
 	%br/
 	%br/
 / container
-#r   
+#call
+	.container
+		.row
+			%h3 CONTACT ME
+			.col-lg-8.col-lg-offset-2
+				%p
+					Cell: 
+					%a{href: "tel:9046875314"} (904) 687-5314
+					%br/          
+					Email:
+					%a{href: "mailto:langenhagen.rs@gmail.com"} langenhagen.rs@gmail.com    
 	%script{src: "https://code.jquery.com/jquery-1.10.2.min.js"}
 	%script{src: "javascripts/bootstrap.min.js"}
 	%script{src: "javascripts/main.js"}

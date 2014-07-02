@@ -604,5 +604,9 @@ hr {
   background-color: #ebebeb;
 }
 .desc {
-padding-top: 90px;
+    padding-top: 90px;
+}
+.works-img {
+    height: auto;
+    max-width: 100%;
 }
