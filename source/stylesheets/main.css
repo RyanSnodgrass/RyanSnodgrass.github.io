@@ -599,3 +599,10 @@ hr {
 .main-color {
     color: #1ABCB8 !important;
 }
+
+.pt {
+  background-color: #ebebeb;
+}
+.desc {
+padding-top: 90px;
+}
