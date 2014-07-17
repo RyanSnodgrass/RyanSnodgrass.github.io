@@ -15,11 +15,19 @@
 					%li.active
 						%a{href: "index.html"} HOME
 					%li
-						%a{href: "portfolio.html"} WORKS
+						%a{href: "portfolio.html"} WORK
+					/ %li
+					/ 	%a{href: "index.html#services"} ABOUT
 					%li
 						%a{href: "mailto:ryansnodgrass.dev@gmail.com"} ryansnodgrass.dev@gmail.com
 					%li
 						%a{href: "tel:9046875314"} (904) 687-5314      
+					%li
+						%a{href: "https://github.com/RyanSnodgrass"}
+							%i.fa.fa-git-square
+					%li
+						%a{href: "http://www.linkedin.com/pub/ryan-snodgrass/96/3b8/241/"}
+							%i.fa.fa-linkedin-square
 	#headerwrap
 		.container
 			.row.centered
@@ -43,7 +51,7 @@
 			.col-lg-4.col-md-4
 				%i.fa.fa-html5
 				%h4 HTML CSS JAVASCRIPT
-				%p Making use of popular templates such as Bootstrap, Foundation, and Pure, now your website will look just as slick as the backend is awesome! Templates quicken development and pride is taken to make sure each app looks unique!
+				%p Making use of popular templates such as Bootstrap, Foundation, and Pure, now your website will look just as slick as the backend is awesome! Templates quicken development and pride is taken to make sure each app looks unique.
 		%br/
 		%br/
 
@@ -60,9 +68,13 @@
 				%li
 					%a{href: "portfolio.html#courseapp"}
 						%img{src: "images/portfolio/sinatra_four_hw_screenshot_resize.jpg"}/
-				%li
+				%li#about
 					%a{href: "portfolio.html#fsm"}
 						%img{src: "images/portfolio/FSM_app_resize.jpg"}/
+			.row
+				.col-sm-6.col-sm-offset-3.centered
+					%h1.encourage
+						%i.fa.fa-angle-double-down
 			
 	/ SERVICES SECTION
 	#services
@@ -119,7 +131,7 @@
 				.col-lg-12
 					%h1 Stay Connected
 
-					%p Join me on the social networks to keep track of all my going-ons and updates. Or you can just stop by and say hello!
+					%p Join me on the social networks to keep track of all my going-ons and updates.
 					%br/
 			/ col-lg-12
 		/ row
@@ -134,27 +146,34 @@
 					%p.centered
 						%a{href: "http://snodgrassry.wordpress.com/"}
 							%i.fa.fa-wordpress
-					%p.ml > Read My Musings
+					%p.ml 
+						%a.contact{href: "http://snodgrassry.wordpress.com/"}
+							> Read My Musings
 				.col-md-3.lg
 					%h4.ml TWITTER
 					%p.centered
 						%a{href: "https://twitter.com/_ryansnodgrass"}
 							%i.fa.fa-twitter
-					%p.ml > Follow Me
+					%p.ml 
+						%a.contact{href: "https://twitter.com/_ryansnodgrass"}
+							> Follow Me
 				.col-md-3.dg
 					%h4.ml GITHUB
 					%p.centered
 						%a{href: "https://github.com/RyanSnodgrass"}
 							%i.fa.fa-github
-					%p.ml > Checkout My Repos
+					%p.ml 
+						%a.contact{href: "https://github.com/RyanSnodgrass"}
+							> Checkout My Repos
 				.col-md-3.lg
 					%h4.ml LINKEDIN
 					%p.centered
 						%a{href: "http://www.linkedin.com/pub/ryan-snodgrass/96/3b8/241/"}
 							%i.fa.fa-linkedin
-					%p.ml > Connect With InMail
-			/ row
-		/ container
+					%p.ml
+						%a.contact{href: "http://www.linkedin.com/pub/ryan-snodgrass/96/3b8/241/"}
+							> Connect with Me
+
 	/ Social Footer
 	/ CONTACT FOOTER -
 	#call

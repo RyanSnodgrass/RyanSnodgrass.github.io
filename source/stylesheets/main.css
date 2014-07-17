@@ -610,3 +610,9 @@ hr {
     height: auto;
     max-width: 100%;
 }
+.contact {
+  color: white;
+}
+.encourage {
+  color: grey;
+}

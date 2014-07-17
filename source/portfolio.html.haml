@@ -15,11 +15,19 @@
 					%li
 						%a{href: "index.html"} HOME
 					%li.active
-						%a{href: "portfolio.html"} WORKS
+						%a{href: "portfolio.html"} WORK
+					/ %li
+					/ 	%a{href: "index.html#services"} ABOUT
 					%li
 						%a{href: "mailto:ryansnodgrass.dev@gmail.com"} ryansndograss.dev@gmail.com
 					%li
 						%a{href: "tel:9046875314"} (904) 687-5314
+					%li
+						%a{href: "https://github.com/RyanSnodgrass"}
+							%i.fa.fa-git-square
+					%li
+						%a{href: "http://www.linkedin.com/pub/ryan-snodgrass/96/3b8/241/"}
+							%i.fa.fa-linkedin-square
 .container.w.desc
 	.row
 		%br
@@ -30,10 +38,12 @@
 			%h4 LiQo
 			%p With this app, users can select spirits and liqueurs they have in their IRL cabinet at home, and the app queries through a database and outputs recipes that match only the ingredients they already have.
 			
-			%p
+			%p 
+				PostgreSQL database built on Ruby on Rails 4.1.0, Ruby version 2.1.1. ActiveRecord ORM. Devise gem used for User Authentication, CanCanCan gem used for User Permissions. Test Driven Development provided by RSPEC. Behavior Driven Development provided by Capybara. Testing factories by Factory_Girl. Javascript test driver by Webkit. Template by Bootstrap. HAML for cleaner HTML. Github VCS. Hosted on Heroku.
 				/ %i.fa.fa-circle-o
 				/ Ruby on Rails
 				/ %br
+			%p	
 				%i.fa.fa-circle-o
 				%a{href: "http://liqo-final-project.herokuapp.com"} Live Website
 				%br
@@ -52,6 +62,8 @@
 		.col-md-6
 			%h4 FSM Pastafarian Converter
 			%p Light hearted app running on Ruby on Rails that shows a list of famous religous figures that you "convert" to the Church of the Flying Spaghetti Monster as a "Pastafarian."
+			%p
+				PostgreSQL database built on Ruby on Rails version 4.1.0. ActiveRecord ORM. bcrypt gem for user authentication. AJAX front end using CoffeeScript version 1.7.1 to change values in columns and delete rows from table. Jquery 1.11.1 library extending JavaScript functionality. Template by Bootstrap. HAML for cleaner HTML. Github VCS. Hosted on Heroku.
 			%p
 				%i.fa.fa-circle-o
 				%a{href: "http://young-ocean-5340.herokuapp.com/"} Live Website
@@ -73,9 +85,8 @@
 			%h4 Course Catalog
 			%p Full CRUD(Create Read Update Delete) running on a Sinatra backend.
 			%p
-				/ %i.fa.fa-circle-o
-				/ %a{href: "http://http://young-ocean-5340.herokuapp.com/"} Live Website
-				/ %br
+				SQLite3 database built on Sinatra version 1.4.5. Ruby version 2.0.0. ActiveRecord ORM. Template by Bootstrap. HAML for cleaner HTML. Github VCS.
+			%p
 				%i.fa.fa-git-square
 				%a{href: "https://github.com/RyanSnodgrass/sinatra_four_hw"}Github Repository
 				%br/
@@ -91,6 +102,8 @@
 		.col-md-6
 			%h4 HorseRace Game
 			%p Super fun, super simple app running on pure ruby straight in the terminal. You name your horse, and then type commands to make your horse race across an ASCII generated track.
+			%p
+				Ruby version 2.0.0 managed by RVM.
 			%p
 				%i.fa.fa-git-square
 				%a{href: "https://gist.github.com/RyanSnodgrass/9958053"}Github Repository
